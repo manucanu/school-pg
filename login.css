@@ -1,0 +1,98 @@
+.container {
+  width: 40%;
+  height: 85%;
+  margin: 10px;
+  position: absolute;
+  left: 30%;
+  top: 7%;
+}
+.container footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  margin: 1px;
+}
+.container footer strong {
+  color: orangered;
+}
+.container .fieldset {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  box-shadow: 3px 2px rgb(224, 224, 224);
+  height: 85vh;
+}
+.container .fieldset .start {
+  background: linear-gradient(to right, rgb(215, 255, 255) 0%, rgba(13, 167, 187, 0.808) 20%, rgba(10, 8, 136, 0) 61%), linear-gradient(rgb(217, 97, 107) 52%, rgb(206, 12, 12) 60%, rgba(169, 183, 201, 0.274) 61%);
+  border-radius: 5px;
+  text-align: center;
+}
+.container .fieldset .start .img {
+  align-items: center;
+  width: 100%;
+  height: 60%;
+}
+.container .fieldset .start .img img {
+  margin: 2px;
+  border-radius: 50px;
+}
+.container .fieldset .create {
+  margin: 15px;
+  border: 1px solid rgb(36, 183, 241);
+  background-color: rgb(36, 183, 241);
+  font-weight: bold;
+  border-radius: 5px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.container .fieldset .create a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+.container .fieldset input {
+  margin: 8px;
+  font-family: sans-serif;
+  padding: 2px;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-bottom: 1px solid rgb(134, 125, 125);
+  letter-spacing: 0.002em;
+  text-align: center;
+}
+.container .fieldset form {
+  margin: 5px;
+  padding: 1px;
+}
+.container .end {
+  margin: 5px;
+  display: flex;
+  padding: 1px;
+  justify-content: space-evenly;
+  width: 95%;
+  height: 80px;
+  text-align: center;
+}
+.container .end .one {
+  margin: 1px;
+  text-align: center;
+  color: green;
+  padding: 1px;
+}
+.container .end .two {
+  margin: 2px;
+  text-align: center;
+  color: red;
+}
+.container .end a {
+  margin: 2px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.body {
+  width: 100%;
+}/*# sourceMappingURL=login.css.map */

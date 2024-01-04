@@ -1,0 +1,76 @@
+.container {
+  width: 45%;
+  height: 85vh;
+  left: 30%;
+  top: 7%;
+  position: absolute;
+}
+.container .field {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  box-shadow: 3px 2px rgb(224, 224, 224);
+  height: 85vh;
+}
+.container .field .start {
+  border-radius: 5px;
+  background: linear-gradient(to right, rgb(215, 255, 255) 0%, rgba(13, 167, 187, 0.808) 20%, rgba(10, 8, 136, 0) 61%), linear-gradient(rgb(217, 97, 107) 52%, rgb(206, 12, 12) 60%, rgba(169, 183, 201, 0.274) 61%);
+  text-align: center;
+}
+.container .field .start .img {
+  align-items: center;
+  width: 100%;
+  height: 60%;
+}
+.container .field .start .img img {
+  margin: 2px;
+  border-radius: 50px;
+}
+.container .field .create {
+  border: rgb(36, 183, 241);
+  background-color: rgb(36, 183, 241);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+.container .field .create a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+.container .field input {
+  letter-spacing: 0.002em;
+  border-radius: 5px;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  margin: 10px;
+  font-family: sans-serif;
+  padding: 3px;
+}
+.container .field .form {
+  margin: 5px;
+  padding: 1px;
+}
+.container .end {
+  margin: 5px;
+  display: flex;
+  padding: 2px;
+  height: 80px;
+  text-align: center;
+  justify-content: space-around;
+}
+.container .end a {
+  text-decoration: none;
+}
+.container .end .one {
+  margin: 1px;
+  text-align: center;
+  color: green;
+}
+.container .end .two {
+  margin: 1px;
+  text-align: center;
+  color: red;
+}/*# sourceMappingURL=index.css.map */
